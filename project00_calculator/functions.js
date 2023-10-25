@@ -1,19 +1,16 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
 function add(number1, number2) {
     return number1 + number2;
 }
-exports.add = add;
+export { add };
 function subtract(number1, number2) {
     return number1 - number2;
 }
-exports.subtract = subtract;
+export { subtract };
 function multiply(number1, number2) {
     return number1 * number2;
 }
-exports.multiply = multiply;
+export { multiply };
 function divide(number1, number2) {
     return number1 / number2;
 }
-exports.divide = divide;
+export { divide };
